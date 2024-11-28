@@ -1,0 +1,4 @@
+.github
+.velite
+**/*.mdx
+components/ui/index.ts
