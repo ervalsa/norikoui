@@ -15,7 +15,7 @@ const styles = tv(
     variants: {
       intent: {
         primary: [
-          "bg-primary-500 pressed:bg-primary-900 hover:drop-shadow-button hover:bg-primary-700"
+          "bg-primary-500 hover:bg-primary-700 hover:drop-shadow-button pressed:bg-primary-900"
         ],
         secondary: ["bg-blue-300"],
         warning: ["text-yellow-500"],

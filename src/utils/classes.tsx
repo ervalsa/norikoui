@@ -36,7 +36,7 @@ const focusButtonStyles = tv({
   variants: {
     isFocusVisible: {
       false: "outline-0",
-      true: "outline-button bg-primary-700 outline-3"
+      true: "bg-primary-700 outline-3 outline-button"
     }
   }
 })
