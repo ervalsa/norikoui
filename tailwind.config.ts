@@ -33,7 +33,7 @@ const config = withTV({
           "800": "#143F80",
           "900": "#0D2A55",
           "950": "#081933"
-        },
+        }
       },
       outlineColor: {
         primary: "rgba(39, 126, 255, 0.2)"

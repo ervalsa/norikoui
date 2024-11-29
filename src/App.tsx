@@ -14,11 +14,7 @@ export function App() {
 
   return (
     <div className="container flex h-screen items-center justify-center">
-      <Button
-        loading={loading}
-        prefix={<AArrowDown />}
-        onPress={handleClick}
-      >
+      <Button loading={loading} prefix={<AArrowDown />} onPress={handleClick}>
         Button
       </Button>
     </div>

@@ -40,8 +40,8 @@ const focusButtonStyles = tv({
     },
     intent: {
       primary: "outline-primary focus:bg-primary-700",
-      warning: "focus:bg-yellow-700 outline-yellow-300",
-      danger: "focus:bg-red-700 outline-red-300"
+      warning: "outline-yellow-300 focus:bg-yellow-700",
+      danger: "outline-red-300 focus:bg-red-700"
     }
   }
 })
