@@ -32,11 +32,16 @@ const focusStyles = tv({
 })
 
 const focusButtonStyles = tv({
-  base: "outline-ring outline outline-offset-0",
+  base: "outline-ring outline outline-offset-1",
   variants: {
     isFocusVisible: {
       false: "outline-0",
-      true: "bg-primary-700 outline-3 outline-button"
+      true: "outline-3"
+    },
+    intent: {
+      primary: "outline-primary focus:bg-primary-700",
+      warning: "focus:bg-yellow-700 outline-yellow-300",
+      danger: "focus:bg-red-700 outline-red-300"
     }
   }
 })

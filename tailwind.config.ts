@@ -33,13 +33,10 @@ const config = withTV({
           "800": "#143F80",
           "900": "#0D2A55",
           "950": "#081933"
-        }
-      },
-      dropShadow: {
-        button: "0 4px 12px rgba(33, 105, 212, 0.35)"
+        },
       },
       outlineColor: {
-        button: "rgba(39, 126, 255, 0.2)"
+        primary: "rgba(39, 126, 255, 0.2)"
       },
       outlineWidth: {
         "3": "3px"
